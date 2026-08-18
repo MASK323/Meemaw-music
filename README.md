@@ -125,7 +125,7 @@ python main.py
 pyinstaller "Meemaw music.spec"
 ```
 
-构建产物位于 `dist/Meemaw music/`。
+构建产物位于 `dist/Meemaw music/`。安装包默认安装目录为 `D:\Meemaw music`，若该目录不存在，安装时会自动创建。
 
 ## 项目结构
 
@@ -173,3 +173,4 @@ pyinstaller "Meemaw music.spec"
 - 界面布局、色彩与播放器交互参考网易云音乐客户端
 - 项目在界面与交互设计上参考并借鉴了 [MoeKoeMusic](https://github.com/MoeKoeMusic/MoeKoeMusic)
 - 感谢所有开源社区与开源项目带来的学习支持
+
