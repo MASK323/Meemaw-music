@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Build output
+build/
+build_tmp/
+dist/
+dist_tmp/
+*.spec.bak
+
+# Runtime / local account data
+app/kugou_dev.json
+app/kugou_login.json
+app/url_cache.json
+*_dev.json
+*_login.json
+
+# Logs
+*.log
+api_debug_*.log
+
+# Editors / OS
+.idea/
+.vscode/
+*.swp
+Thumbs.db
+Desktop.ini
+.DS_Store
